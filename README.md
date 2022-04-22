@@ -19,7 +19,7 @@ To begin your journey with Sudobox.io and execute the installation process you c
 ```
 sudo apt update
 sudo apt install curl
-curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash && exec sudo su -l ${SUDO_USER:-$USER}
+curl -fsSl https://raw.githubusercontent.com/maxerism/sb-install/master/install.sh | sudo bash && exec sudo su -l ${SUDO_USER:-$USER}
 sb
 ```
 
